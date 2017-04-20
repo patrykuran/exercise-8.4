@@ -45,5 +45,5 @@ module.exports = function(grunt) {
   	grunt.loadNpmTasks('grunt-browser-sync');
     grunt.loadNpmTasks('grunt-contrib-jshint');
   // Default task(s).
-  	grunt.registerTask('default', ["sass"], ["browserSync"], ['jshint'], ["watch"]);
+  	grunt.registerTask('default', "sass", "browserSync", "jshint", "watch");
 };
